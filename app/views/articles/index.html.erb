@@ -1,5 +1,8 @@
 <h2>List of articles</h2>
 
+<button id="count_link">How many objects are there?</button><br>
+<p id="count_result"></p>
+
 <%= link_to 'New article', new_article_path %>
 
 <% @articles.each do |a| %>
